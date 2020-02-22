@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 150px;
+  font-family: "MAK";
+  color: snow;
+  text-indent: 5%;
+}
+h2 {
+  font-size: 70px;
+  font-family: "MAK";
+  color: snow;
+  text-indent: 5%;
+}
+
+canvas {
+  display: block;
+}
+
+@font-face{
+  font-family: "MAK";
+  src: url("fonts/MAK.otf") format("opentype");
+}
