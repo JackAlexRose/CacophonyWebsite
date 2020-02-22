@@ -6,14 +6,43 @@ html, body {
 h1 {
   font-size: 150px;
   font-family: "MAK";
-  color: snow;
+  color: black;
   text-indent: 5%;
+  z-index: 2;
 }
 h2 {
   font-size: 70px;
   font-family: "MAK";
   color: snow;
   text-indent: 5%;
+  z-index: 2;
+}
+/*
+a {
+  color: black;
+}
+*/
+
+:root {
+  --mainColor: #96404F;
+}
+
+a {
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size .2s;
+}
+
+a:hover {
+  background-size: 4px 80px;
 }
 
 canvas {
