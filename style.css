@@ -4,14 +4,14 @@ html, body {
 }
 
 h1 {
-  font-size: 150px;
+  font-size: 7vw;
   font-family: "MAK";
   color: black;
   text-indent: 5%;
   z-index: 2;
 }
 h2 {
-  font-size: 70px;
+  font-size: 3vw;
   font-family: "MAK";
   color: snow;
   text-indent: 5%;
